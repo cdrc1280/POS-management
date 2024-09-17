@@ -120,6 +120,14 @@ class OrderController extends Controller
                     'customer_orders' => $orderedBy
                 ]
             );
+            // return view(
+            //     'orders.index',
+            //     [
+            //         'products' => $products,
+            //         'orderdetails' => $orders_details,
+            //         'customer_orders' => $orderedBy
+            //     ]
+            // );
         });
 
 
