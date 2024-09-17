@@ -1,0 +1,15 @@
+.btn-outline{
+  border-color: #008b8b;
+  color: #008b8b;
+}
+
+
+.btn-outline:hover{
+  background-color: #008b8b;
+  color: #fff;
+
+}
+
+.rounded-pill{
+  margin: 0 5px;
+}

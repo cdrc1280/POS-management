@@ -1,0 +1,30 @@
+#sideBar {
+    background-color: #f0f0f0; 
+    padding: 10px;
+}
+
+#sideBar ul.list-unstyled {
+    padding-left: 0;
+}
+
+#sideBar ul.list-unstyled li {
+    list-style-type: none;
+}
+
+#sideBar ul.list-unstyled li a {
+    display: block;
+    padding: 10px;
+    font-size: 1.1rem;
+    color: #008b8b;
+    text-decoration: none; 
+}
+
+#sideBar ul.list-unstyled li a i {
+    margin-right: 10px;
+}
+
+#sideBar ul.list-unstyled li.active > a,
+#sideBar ul.list-unstyled li a:hover {
+    color: #fff;
+    background-color: #008b8b;
+}
